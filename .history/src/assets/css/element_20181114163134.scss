@@ -1,0 +1,68 @@
+// 弹窗
+.el-dialog__title{
+    font-size: 16px;
+}
+
+// form表单
+.el-form.uip_custom_form{
+    .el-form-item{
+        label{
+            color: #808080;
+            font-size: 14px;
+        }
+        .el-form-item__content{
+            line-height: inherit;
+        }
+    }
+}
+
+// input文本框
+.el-input{
+    input{
+        border: 1px solid transparent;
+    }
+}
+
+.el-input, .el-select{
+
+    input.el-input__inner:focus,
+    .el-select .el-input.is-focus .el-input__inner{
+        border: 1px solid #ccc !important;
+    }
+    
+}
+.el-select {
+    .el-input .el-select__caret{
+        font-weight: bold;
+        color: #EA0057;
+    }
+}
+.el-autocomplete{
+    input{
+        border-radius: 0;
+        background: transparent;
+        border-bottom: 1px solid #BFC0C6;
+        &:focus{
+            border-color: transparent;
+        }
+    }
+}
+
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #cccccc;
+    font-size: 14px;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #cccccc;
+    font-size: 14px;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #cccccc;
+    font-size: 14px;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #cccccc;
+    font-size: 14px;
+}

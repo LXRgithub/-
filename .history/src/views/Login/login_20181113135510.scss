@@ -1,0 +1,99 @@
+.login-index{
+    width: 100%;
+    height: 100%;
+    .el-aside{
+        border: 1px solid;
+    }
+    .el-main{
+        .el-row{
+            height: 100%;
+            .content-div{
+                padding:5px 0; 
+                text-align:center;
+                margin-top: -10%;
+                .logo-div{
+                    .logo{
+                        img{
+                            width: 100px;height: 60px;
+                        }
+                    }
+                    .school{
+                        line-height: 30px;
+                        font-size: 28px;
+                        margin-top: 7%;
+                        color: #7D8091;
+                    }
+                }
+                .input-div{
+                    padding: 0 30%; 
+                    margin-top: 11vh;
+                    /* .signIn {
+                        li {
+                          position: relative;
+                          margin-bottom: 10px;
+                          height: 40px;
+                          img {
+                            position: absolute;
+                          }
+                          input {
+                            width: 100%;
+                            height: 40px;
+                            padding-left: 40px;
+                            display: block;
+                            margin: 0 auto;
+                            background-color: transparent;
+                            font-size: 16px;
+                            outline: none;
+                            border: 0;
+                            border-bottom: 1px solid #dbdeea;
+                            border-radius: 0;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                          }
+                        }
+                        .account {
+                          img {
+                            left: 10px;
+                            top: 0;
+                            bottom: 0;
+                            margin: auto;
+                            width: 16px;
+                          }
+                        }
+                        .password {
+                          .left {
+                            left: 10px;
+                            top: 0;
+                            bottom: 0;
+                            margin:auto;
+                            width: 16px;
+                          }
+                          .right {
+                            right: 10px;
+                            top: 10px;
+                            width: 20px;
+                          }
+                        }
+                      } */
+                      .el-form{
+                            .el-input input{
+                                border: 0;
+                                border-bottom: 1px solid #CCCCCC;
+                                border-radius: 0;
+                                padding-left: 60px;
+                          }
+                            .el-form-item__error{
+                                left: 60px;
+                            }
+                      }
+                }
+                .login-button{
+                    padding: 0 30%; 
+                    margin-top: 13vh;
+                    text-align: left;
+                    pad
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+
+ .admin-home-index{
+     height: 100%;
+     width: 100%;
+    // -webkit-box-shadow: 1px 1px 10pxpx red;
+    // -moz-box-shadow: 1px 1px 10pxpx red;
+  //   box-shadow: 0px 5px 15px #f2eaed;
+    .el-container{
+        
+        .el-header {
+            border: 1px solid ;
+            background-color: #B3C0D1;
+            color: #333;
+            height: 60px;
+            line-height: 60px;
+            // box-sizing: content-box;
+            .title{
+                text-align: left;
+                float: left;
+            }
+            .header-info{
+                height: 60px;
+                line-height: 60px;
+                text-align: right;
+                float: left;
+                div, span{
+                    box-sizing: content-box;
+                }
+            }
+        }
+        .el-main{
+            border: 1px solid ;
+        }
+    }
+ }

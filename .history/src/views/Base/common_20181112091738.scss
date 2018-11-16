@@ -1,0 +1,21 @@
+/* 公共样式 */
+
+.el-container{
+    height: 100%;
+    width: 100%;
+}
+.el-main{
+    padding: 0;
+}
+// 页面标题
+.el-header {
+    color: #333;
+    height: 60px;
+    line-height: 60px;
+    .title{
+        text-align: left;
+        font-size: 20px;
+        color: #2F334F;
+    }
+}
+

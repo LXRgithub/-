@@ -1,0 +1,19 @@
+/* 公共页面样式 */
+// 账号设置
+.account-setting{
+    height: 100%;
+    width: 100%;
+    .set-main{
+        padding: 10px;
+        .el-row{
+            height: 100%;
+            .el-col:nth-child(1){
+                text-align: right;
+                > div{
+                    line-height: 
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,15 @@
+<!-- 管理员角色-档案管理-学生档案 -->
+<template>
+  <div class="student-record">
+      StudentRecord
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'student-record'
+}
+</script>
+
+<style type="text/scss" lang="scss" scoped>
+</style>

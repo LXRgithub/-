@@ -1,0 +1,31 @@
+/* 公共页面样式 */
+// 账号设置
+.account-setting{
+    height: 100%;
+    width: 100%;
+    .set-main{
+        padding: 10px;
+        .el-row{
+            height: 100%;
+            margin-top: -120px;
+            .el-col{
+                > div{
+                    line-height: 50px;
+                    font-size: 16px;
+                    .el-input input{
+                        border-color: transparent;
+                        background: transparent;
+                        padding-left: 0;
+                        font-size: 16px;
+                        color: #EE3379;
+                    }
+                }
+                &:nth-child(1){
+                    text-align: right;
+                    padding-right: 40px;
+                }
+            }
+        }
+    }
+}
+
